@@ -20,7 +20,7 @@ Or, for the power user, something like `(div [p class:silly; Hello, World!])`
 (i.e. using interchangeable `(.)`s and `[.]`s).
 ### Implementation
 The program will be a Python script that will output `.html` files, just like Markdown.
-The inverse should be possible to: any `.html` should be easily translated to 
+The inverse should be possible too: any `.html` should be easily translated to 
 `.chtml` (or perhaps `.cht` for short) for working.
 
 #### Syntactic elements
