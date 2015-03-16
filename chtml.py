@@ -2,7 +2,8 @@
 
 from html.parser import HTMLParser
 
-class htmlparse(HTMLParser):
+# Define the parser for vanilla html
+class vanhtml(HTMLParser):
     def starttag(self, tag, attrs):
         pass
     def endtag(self, tag):
